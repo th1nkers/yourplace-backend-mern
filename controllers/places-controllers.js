@@ -87,7 +87,8 @@ const createPlace = async (req, res, next) => {
             lat: 40.7484474,
             lng: -73.9871516
         },
-        image: req.file.path,
+        image: "https://cdn.pixabay.com/photo/2016/01/03/15/00/instagram-1119535_1280.jpg",
+        // image: req.file.path,
         creator,
     });
 
