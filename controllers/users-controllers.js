@@ -70,7 +70,8 @@ const signup = async (req, res, next) => {
     const createdUser = new User({
         name,
         email,
-        image: req.file.path,
+        // image: req.file.path,
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg/1200px-Mumbai_Aug_2018_%2843397784544%29.jpg",
         password: hashedPassword,
         places: [],
     });
